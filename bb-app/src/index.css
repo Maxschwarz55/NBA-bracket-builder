@@ -1,3 +1,35 @@
+.bracket-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.round-container {
+  padding-right: 30rem;
+}
+
+.game-box-outline{
+  display:flex;
+  flex-direction: row;
+}
+
+.game-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.horz-team-line{
+  border: 1px solid gray;
+  background-color: gray;
+  height: 1px;
+  width: 50px;
+  margin-top: 55px;
+}
+
+.team-container{
+  display: flex;
+  flex-direction: row;
+}
+
 
 .team-selector{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -16,5 +48,20 @@
 
 .team-option {
   background-color: black;
+}
+
+
+.round-container{
+  margin-top: 4.5rem;
+}
+
+.team-seperator{
+  margin: 0px;
+  visibility: hidden;
+}
+
+.game-seperator{
+  margin: 2rem 0rem;
+  visibility: hidden;
 }
 

@@ -1,10 +1,12 @@
-import TeamBox from "./Components/TeamBox";
+import FirstRoundOutline from "./Components/FirstRoundOutline";
 
 
 function App() {
   return (
     <>
-      <TeamBox/>
+      <div className = "bracket-container">
+        <FirstRoundOutline numGames = {4} numTeams = {8} confType={"west"}/>
+      </div>
     </>
   );
 }
